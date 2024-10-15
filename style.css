@@ -1,0 +1,76 @@
+.brownButton{
+    background-color: #85754e;
+    color:white;
+    padding: 15px;
+    text-decoration: none;
+    border-radius: 15px;
+
+}
+
+.brownButton:hover{
+    background-color: black;
+    color:white;
+}
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .baskervville-sc-regular {
+    font-family: "Baskervville SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    
+  }
+
+#image1{
+  width:auto;
+  max-width:100%;
+  object-fit:cover;
+}
+
+  #image2{
+    margin-left: -24px;
+    width:auto;
+    max-width:100%;
+    object-fit:cover;
+  }
+
+  #image3{
+    width:auto;
+    max-width:100%;
+    object-fit:cover;
+    margin-left: -48px;
+  }
+  .mycontainer{
+    position: relative;
+  }
+  .mycontainer:hover .overlay{
+    opacity: 1;
+  }
+
+  .overlay{
+    /*width:100%; */
+    height: 50%;
+    position: absolute;
+    bottom: 0;
+    opacity: -6;
+    background: rgb(106, 135, 61);
+    transition: all 0.9s ease-out;
+    text-align: center;
+    padding: 10px;
+    font-size: 25px;
+    color: white;
+  }
+
+  .hidden{
+    opacity: 0.1;
+    transform: translateX(20px);
+    transition: all 1s;
+  }
+
+  .show{
+    opacity: 1;
+    transform: translateX(5px);
+  }
